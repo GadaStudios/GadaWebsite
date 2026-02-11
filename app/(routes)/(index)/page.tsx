@@ -1,5 +1,9 @@
-import React from "react";
+import { Hero } from "./_components/hero";
 
 export default function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <div className="flex-1 overflow-x-clip">
+      <Hero />
+    </div>
+  );
 }
